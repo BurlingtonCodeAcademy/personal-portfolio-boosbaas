@@ -32,11 +32,22 @@ body {
     height: 100px;
     justify-content: end;
 }
-#oval1{
-    height:10vh;
-    width:10vw;
+
+#oval1 {
+    height: 10vh;
+    width: 10vw;
 }
 
 #container li {
     margin-bottom: 10px;
+}
+
+#confusion {
+    justify-content: right;
+    grid-row: 3/4;
+    grid-column: 3/5;
+}
+#snark {
+    grid-row-start: 3;
+    grid-column-start: 3;
 }

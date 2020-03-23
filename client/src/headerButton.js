@@ -5,7 +5,7 @@ import './headerButton.css';
 class HeaderButton extends React.Component {
     render() {
         return (
-            < button id='roundButton' onMouseDown={this.props.handleMouseDown}></ button>
+            < button id='roundButton' onClick={this.props.handleMenuChange}></ button>
         );
     }
 }
