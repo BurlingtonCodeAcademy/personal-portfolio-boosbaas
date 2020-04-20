@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1, h2, p, ul, li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: calc(15px + 2vmin);
+  margin: 0px;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 10px;
+}
+
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+
+ul.header li a {
+  background-color: #111;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  padding: 10;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.active ol {
+  background-color: #0099FF;
+}
+
+.stuff {
+  display: grid;
+}
+
+.home {
+  display: flex;
+  background-color: #0099FF
+}
+
+.home img {
+  height: 250px;
+  width: 250px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(208, 0, 104, .9);
+}
+
+.square {
+  display: flex;
+  height: 350px;
+  width: auto;
+  padding: 50px;
+  background-color: rgb(17, 243, 9);
+}
+
+.pia {
+  display: flex;
+  height: 350px;
+  width: 350px;
+  outline: 5px solid black;
+  outline-offset: 10px;
+}
+
+.poem {
+  display: flex;
+  height: 300px;
+  width: 550px;
+  margin: 25px;
+  padding: 10px;
+  background-image: linear-gradient( rgba(139, 69, 19, 1), rgb(204, 97, 20, .75), rgb(204, 97, 20, .75)), url('./images/nigerianfabric1.png');
+  border-radius: 25px 25px 250px 250px;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+ 
+}
+
+.ps {
+  display: flex;
+  margin:25px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#first {
+  position: relative;
+  top: 150px;
+  left: -75px;
+  transform: rotate(45deg);
+  z-index: 10;
+}
+
+#second {
+  position: relative;
+  left: 275px;
+  top: 300px;
+}
+
+#third {
+  position: relative;
+  left: -300px;
+  top: 300px;
+  transform: rotate(90deg);
+}
+
+#two {
+  position: relative;
+  left: 150px;
+}
+
+#three {
+  position: relative;
+  left: 300px;
+}
