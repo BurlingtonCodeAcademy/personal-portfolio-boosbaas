@@ -1,0 +1,46 @@
+ubuntu mono <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+</style> 
+font-family: 'Ubuntu Mono', monospace;
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Nanum+Brush+Script&family=Reenie+Beanie&family=Ubuntu+Mono:wght@400;700&display=swap');
+</style> 
+<link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Nanum+Brush+Script&family=Reenie+Beanie&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+
+
+    font-family: 'Ubuntu Mono', monospace; ---very sterile and detached
+
+---these are all low key handwritten styles (don't use all of them!)
+
+    font-family: 'Dokdo', cursive; 
+
+    font-family: 'Nanum Brush Script', cursive;
+
+    font-family: 'Reenie Beanie', cursive;
+
+componentDidMount=()=> {
+    axios.get('http://localhost:5000/post/' + this.props.match.params.id)
+    .then(response => {
+        this.setState({
+            _id: response.data._id,
+            username: response.data.username,
+            title: response.data.title,
+            description: response.data.description,
+            location: response.data.location,
+            image: response.data.image,
+            date: new Date(response.data.date)
+        })
+
+Haiku ambulance - "A piece of green pepper", "fell" , "off the wooden salad bowl:","so what?"
+
+
+remember random color generator in "react-colorcard" from Kirupa
+
+a way to cheat on random colors
+var colors = ["#393E41", "#E94F37", "#1C89BF", "#A1D363"];
+  var ran = Math.floor(Math.random() * colors.length);
+ 
+  // return a Circle with a randomly chosen color
+  return <Circle bgColor={colors[ran]}/>;
